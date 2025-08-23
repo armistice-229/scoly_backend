@@ -128,7 +128,7 @@ doc.fillColor('black');
 
       // QR Code aligné à gauche sur la même ligne
       const qrImage = await QRCode.toDataURL(
-        `https://scoly-backend.onrender.com/verify.html?numero=${data.numeroCertificat}`,
+        `https://scoly.onrender.com/verify.html?numero=${data.numeroCertificat}`,
         {
           color: {
             dark: "#000000",   // couleur des pixels (noir)
